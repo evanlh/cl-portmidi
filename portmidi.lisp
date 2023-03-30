@@ -7,7 +7,7 @@
 Initializes PortMidi. It's automatically called when loading the system, but you can also use it to re-initialize it after a call to terminate.")
 
 ;; ... here
-(initialize)
+;; (initialize)
 
 (defcfun (terminate "Pm_Terminate") :void
   "=> nil
